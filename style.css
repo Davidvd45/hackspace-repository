@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Open sans', sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction
+  height: 40px;
+  margin: 0;
+  box-shadow: 0 3px 7px #ccc;
+}
+
+.header img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.section-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://image.ibb.co/izSNHm/dragon1.png');
+  background-size: cover;
+  height: 280px;
+}
+
+.card-image {
+  text-align: center;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 15px;
+  padding: 15px 70px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font: outline;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px #999;
+}
+
+button:hover {
+  background-color: #1564b2;
+}
+
+button:active {
+  background-color: #1564b2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+blockquote{
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 0.5em 20px;
+  margin: 25px 5%;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.6em;
+}
+
+.footer {
+  background-color: #333;
+  text-align: center;
+  height: 100px;
+}
+
+.menu small {
+  color: #fff;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li{
+  list-style: none;
+  margin: 5px 10px;
+  padding: 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: orange;
+}
+
+.menu ul li a:hover {
+  color: #ee7600;
+}
+
